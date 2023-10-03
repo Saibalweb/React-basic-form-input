@@ -1,0 +1,62 @@
+.UserInput-section{
+    width: 30%;
+    margin: 20px auto;
+    padding: 3%;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(to right, #da4453, #89216b);
+}
+.UserInput-section h1{
+    margin: 20px 0 40px ;
+    font-size: 2.2rem;
+    color: white;
+}
+.UserInput-div{
+    margin: 10px 0;
+}
+.UserInput-div input{
+    width: 70%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    outline: none;
+    font-size: 1.2rem;
+    color: white;
+}
+.UserInput-div input:focus{
+    text-align: center;
+    transition: .5s;
+    width: 80%;
+}
+.UserInput-div input:focus::placeholder{
+    transition: .5s;
+    opacity: 0;
+}
+.UserInput-div input::placeholder{
+    font-size: 1.2rem;
+    color: white;
+}
+.UserInput-div input::-webkit-outer-spin-button,
+.UserInput-div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.button-div{
+    margin: 30px 0;
+}
+.button{
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    color:#d42032;
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button:hover{
+    background: linear-gradient(to right, #38ef7d, #11998e);
+
+}

@@ -1,0 +1,17 @@
+.button-div{
+    margin: 30px 0;
+}
+.button{
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    color:#d42032;
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button:hover{
+    background: linear-gradient(to right, #38ef7d, #11998e);
+
+}
